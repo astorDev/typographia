@@ -7,11 +7,15 @@ status: draft
 
 ![The TLDR;](3-cheatsheet-thumb.png)
 
-> By default `Roboto` typeface is used for all the "tokens".
+Material You helps organize typography in an app by providing a standard set of 15 typography tokens (or `TextStyle`, as they are called in Flutter). The tokens are arranged in 5 groups (also referred to as **roles**, **styles**, and **type styles**). Each group has exactly 3 elements (called **scales**): Large, Medium, and Small.
 
-> `Medium` is a slightly bolder then `Regular`.
+In my understanding, the main purpose of the tokens is to bear a semantical meaning. However, the official docs only provide semantic descriptions and usage examples for the **roles**, supposedly, leaving determining the semantics of specific tokens up to us. Besides role semantics, docs also specify the default implementation for each token. `Roboto` font family is used for every token. Only `Regular` and `Medium` weights are used. Where `Medium` is slightly bolder than `Regular`. 
 
-> Since font size in image is contextual, the exact font size may not be accurate. But the proportion are preserved.
+Now, let's dive into each role semantics, accompanied by examples and specifications!
+
+> ☝ I put **everything** I've found in the official docs regarding semantics. If you find the article lacking details, that's just how deep Google decided to go on their website.
+
+> ⚠️ In the article, a few images showcase different token font sizes. The font sizes are accurate relatively, but not in absolute terms.
 
 ## Display
 
@@ -41,7 +45,7 @@ status: draft
 
 ![](title-showcases.png)
 
-> Titles are smaller than headline styles, and should be used for medium-emphasis text that remains relatively short. For example, consider using title styles to divide secondary passages of text or secondary regions of content.
+> Titles are smaller than headline styles and should be used for medium-emphasis text that remains relatively short. For example, consider using title styles to divide secondary passages of text or secondary regions of content.
 
 | Token              | Font Size | Weight   |
 |--------------------|-----------|----------|
@@ -75,6 +79,12 @@ status: draft
 
 ## Recap
 
+This cheatsheet is essentially an attempt to make the official documentation more readable. Each section corresponds to a Material 3 **type style**, ordered from the largest to the smallest.
+
+Each section starts with the fonts showcases, accompanied by visual examples. In the continuation I put **everything** I found in the official docs on the **type style** semantics. And the TLDR; at the beginning of the article, is just a shortened, one-glance representation of the same information.
+
+Each section ends up with the respecting role tokens specifications. And if you wish for an aggregated specification table, you are in luck, because this is what I'll finish with 😉
+
 | Token              | Font Size | Weight   |
 |--------------------|-----------|----------|
 | Display Large      | 57px      | Regular  |
@@ -92,3 +102,5 @@ status: draft
 | Label Large        | 14px      | Medium   |
 | Label Medium       | 12px      | Medium   |
 | Label Small        | 11px      | Medium   |
+
+By the way ... Claps are appreciated! 👉👈
