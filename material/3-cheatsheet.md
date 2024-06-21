@@ -7,11 +7,13 @@ status: draft
 
 ![The TLDR;](3-cheatsheet-thumb.png)
 
-> By default `Roboto` typeface is used for all the "tokens".
+Material You helps organizing typography in an app by providing a standard set of 15 typography tokens (or `TextStyle`, as they are called in Fluuter). The tokens are arranged in 5 groups (also referred to as **roles**, styles, and type styles). Each group has exactly 3 elements (called **scales**): Large, Medium, and Small.
 
-> `Medium` is a slightly bolder then `Regular`.
+In my understanding, the main purpose of the tokens is to bear a semantical meaning. However, the official docs only provide semantic description and usage examples for the **roles**, supposedly, leaving determining semantic of a specific tokens up to us. Besides role semantics, docs also specify default implementation for each token. `Roboto` font family is used for every token. Only `Regular` and `Medium` weights are used. Where `Medium` is slightly bolder then `Regular`. 
 
-> Since font size in image is contextual, the exact font size may not be accurate. But the proportion are preserved.
+This cheatsheet is essentially an attempt to just make the official documentation more readable. I've collected descriptions of role semantics, default token specifications, and example imagery. To my surprise, the official documentation is pretty pure on details. So, although I tried to extract **everything** useful, the article remained pretty compact.
+
+> ⚠️ In the article, there are a few images showcasing different token font sizes. Their font sizes is accurate relatively, but not in absolute terms.
 
 ## Display
 
