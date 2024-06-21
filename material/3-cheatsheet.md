@@ -7,13 +7,13 @@ status: draft
 
 ![The TLDR;](3-cheatsheet-thumb.png)
 
-Material You helps organizing typography in an app by providing a standard set of 15 typography tokens (or `TextStyle`, as they are called in Fluuter). The tokens are arranged in 5 groups (also referred to as **roles**, styles, and type styles). Each group has exactly 3 elements (called **scales**): Large, Medium, and Small.
+Material You helps organize typography in an app by providing a standard set of 15 typography tokens (or `TextStyle`, as they are called in Flutter). The tokens are arranged in 5 groups (also referred to as **roles**, **styles**, and **type styles**). Each group has exactly 3 elements (called **scales**): Large, Medium, and Small.
 
-In my understanding, the main purpose of the tokens is to bear a semantical meaning. However, the official docs only provide semantic description and usage examples for the **roles**, supposedly, leaving determining semantic of a specific tokens up to us. Besides role semantics, docs also specify default implementation for each token. `Roboto` font family is used for every token. Only `Regular` and `Medium` weights are used. Where `Medium` is slightly bolder then `Regular`. 
+In my understanding, the main purpose of the tokens is to bear a semantical meaning. However, the official docs only provide semantic descriptions and usage examples for the **roles**, supposedly, leaving determining the semantics of specific tokens up to us. Besides role semantics, docs also specify the default implementation for each token. `Roboto` font family is used for every token. Only `Regular` and `Medium` weights are used. Where `Medium` is slightly bolder than `Regular`. 
 
-Now, let's dive in each role semantics, accompanied with examples and specifications!
+Now, let's dive into each role semantics, accompanied by examples and specifications!
 
-> ⚠️ In the article, there are a few images showcasing different token font sizes. Their font sizes is accurate relatively, but not in absolute terms.
+> ⚠️ In the article, a few images showcase different token font sizes. The font sizes are accurate relatively, but not in absolute terms.
 
 ## Display
 
@@ -43,7 +43,7 @@ Now, let's dive in each role semantics, accompanied with examples and specificat
 
 ![](title-showcases.png)
 
-> Titles are smaller than headline styles, and should be used for medium-emphasis text that remains relatively short. For example, consider using title styles to divide secondary passages of text or secondary regions of content.
+> Titles are smaller than headline styles and should be used for medium-emphasis text that remains relatively short. For example, consider using title styles to divide secondary passages of text or secondary regions of content.
 
 | Token              | Font Size | Weight   |
 |--------------------|-----------|----------|
@@ -77,11 +77,11 @@ Now, let's dive in each role semantics, accompanied with examples and specificat
 
 ## Recap
 
-This cheatsheet is essentially an attempt to make the official documentation more readable. Each section respects to a Material 3 **type style**, ordered from the largest to the smallest.
+This cheatsheet is essentially an attempt to make the official documentation more readable. Each section corresponds to a Material 3 **type style**, ordered from the largest to the smallest.
 
-Each section starts with the fonts showcases, accompanied with visual examples. In the continuation I put **everything** I found in the officical docs on the **type style** semantics. And the TLDR; in the beggining of the article, is just a shortened, one-glance representation of the same information.
+Each section starts with the fonts showcases, accompanied by visual examples. In the continuation I put **everything** I found in the official docs on the **type style** semantics. And the TLDR; at the beginning of the article, is just a shortened, one-glance representation of the same information.
 
-Each sections ends up with the respecting role tokens specifications. And if you wish for an aggregated specification table, you are in luck, because this is what I'll finish with 😉
+Each section ends up with the respecting role tokens specifications. And if you wish for an aggregated specification table, you are in luck, because this is what I'll finish with 😉
 
 | Token              | Font Size | Weight   |
 |--------------------|-----------|----------|
