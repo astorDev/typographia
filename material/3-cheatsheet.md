@@ -5,11 +5,17 @@ status: draft
 
 # Material 3 (You) Typography Cheatsheet
 
+![The TLDR;](3-cheatsheet-thumb.png)
+
 > By default `Roboto` typeface is used for all the "tokens".
 
 > `Medium` is a slightly bolder then `Regular`.
 
+> Since font size in image is contextual, the exact font size may not be accurate. But the proportion are preserved.
+
 ## Display
+
+![](display-showcases.png)
 
 > As the largest text on the screen, display styles are reserved for short, important text or numerals. They work best on large screens.  
 
@@ -21,6 +27,8 @@ status: draft
 
 ## Headline
 
+![](headline-showcases.png)
+
 > Headlines are best-suited for short, high-emphasis text on smaller screens. These styles can be good for marking primary passages of text or important regions of content.
 
 | Token              | Font Size | Weight   |
@@ -29,7 +37,9 @@ status: draft
 | Headline Medium    | 28px      | Regular  |
 | Headline Small     | 24px      | Regular  |
 
-## Titles
+## Title
+
+![](title-showcases.png)
 
 > Titles are smaller than headline styles, and should be used for medium-emphasis text that remains relatively short. For example, consider using title styles to divide secondary passages of text or secondary regions of content.
 
@@ -41,6 +51,8 @@ status: draft
 
 ## Body
 
+![](body-showcases.png)
+
 > Body styles are used for longer passages of text in your app. 
 
 | Token              | Font Size | Weight   |
@@ -50,6 +62,8 @@ status: draft
 | Body Small         | 12px      | Regular  |
 
 ## Label
+
+![](label-showcases.png)
 
 > Label styles are smaller, utilitarian styles, used for things like the text inside components or for very small text in the content body, such as captions. 
 
