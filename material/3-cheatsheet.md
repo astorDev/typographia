@@ -11,7 +11,7 @@ Material You helps organizing typography in an app by providing a standard set o
 
 In my understanding, the main purpose of the tokens is to bear a semantical meaning. However, the official docs only provide semantic description and usage examples for the **roles**, supposedly, leaving determining semantic of a specific tokens up to us. Besides role semantics, docs also specify default implementation for each token. `Roboto` font family is used for every token. Only `Regular` and `Medium` weights are used. Where `Medium` is slightly bolder then `Regular`. 
 
-This cheatsheet is essentially an attempt to just make the official documentation more readable. I've collected descriptions of role semantics, default token specifications, and example imagery. To my surprise, the official documentation is pretty pure on details. So, although I tried to extract **everything** useful, the article remained pretty compact.
+Now, let's dive in each role semantics, accompanied with examples and specifications!
 
 > ⚠️ In the article, there are a few images showcasing different token font sizes. Their font sizes is accurate relatively, but not in absolute terms.
 
@@ -77,6 +77,12 @@ This cheatsheet is essentially an attempt to just make the official documentatio
 
 ## Recap
 
+This cheatsheet is essentially an attempt to make the official documentation more readable. Each section respects to a Material 3 **type style**, ordered from the largest to the smallest.
+
+Each section starts with the fonts showcases, accompanied with visual examples. In the continuation I put **everything** I found in the officical docs on the **type style** semantics. And the TLDR; in the beggining of the article, is just a shortened, one-glance representation of the same information.
+
+Each sections ends up with the respecting role tokens specifications. And if you wish for an aggregated specification table, you are in luck, because this is what I'll finish with 😉
+
 | Token              | Font Size | Weight   |
 |--------------------|-----------|----------|
 | Display Large      | 57px      | Regular  |
@@ -94,3 +100,5 @@ This cheatsheet is essentially an attempt to just make the official documentatio
 | Label Large        | 14px      | Medium   |
 | Label Medium       | 12px      | Medium   |
 | Label Small        | 11px      | Medium   |
+
+By the way ... Claps are appreciated! 👉👈
