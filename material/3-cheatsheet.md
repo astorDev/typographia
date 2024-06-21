@@ -13,6 +13,8 @@ In my understanding, the main purpose of the tokens is to bear a semantical mean
 
 Now, let's dive into each role semantics, accompanied by examples and specifications!
 
+> ☝ I put **everything** I've found in the official docs regarding semantics. If you find the article lacking details, that's just how deep Google decided to go on their website.
+
 > ⚠️ In the article, a few images showcase different token font sizes. The font sizes are accurate relatively, but not in absolute terms.
 
 ## Display
