@@ -1,7 +1,7 @@
 name: typographia
 description: "Style-based Text widgets."
 repository: https://github.com/astorDev/typographia
-version: 1.0.0
+version: 1.1.0
 
 environment:
   sdk: '>=3.4.1 <4.0.0'
