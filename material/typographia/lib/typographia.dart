@@ -81,6 +81,12 @@ class TextDisplayLarge extends TextWithKnownStyle {
     super.data, {
       super.key,
       super.color,
+      super.backgroundColor,
+      super.decoration,
+      super.direction,
+      super.textAlign,
+      super.overflow,
+      super.softWrap,
       super.opacity = 1,
     }
   );
@@ -94,6 +100,12 @@ class TextDisplayMedium extends TextWithKnownStyle {
     super.data, {
       super.key,
       super.color,
+      super.backgroundColor,
+      super.decoration,
+      super.direction,
+      super.textAlign,
+      super.overflow,
+      super.softWrap,
       super.opacity = 1,
     }
   );
@@ -108,6 +120,11 @@ class TextDisplaySmall extends TextWithKnownStyle {
       super.key,
       super.color,
       super.backgroundColor,
+      super.decoration,
+      super.direction,
+      super.textAlign,
+      super.overflow,
+      super.softWrap,
       super.opacity = 1,
     }
   );
@@ -123,6 +140,10 @@ class TextHeadlineLarge extends TextWithKnownStyle {
       super.color,
       super.backgroundColor,
       super.decoration,
+      super.direction,
+      super.textAlign,
+      super.overflow,
+      super.softWrap,
       super.opacity = 1,
     }
   );
@@ -139,6 +160,9 @@ class TextHeadlineMedium extends TextWithKnownStyle {
       super.backgroundColor,
       super.decoration,
       super.direction,
+      super.textAlign,
+      super.overflow,
+      super.softWrap,
       super.opacity = 1,
     }
   );
@@ -155,7 +179,9 @@ class TextHeadlineSmall extends TextWithKnownStyle {
       super.backgroundColor,
       super.decoration,
       super.direction,
+      super.textAlign,
       super.overflow,
+      super.softWrap,
       super.opacity = 1,
     }
   );
@@ -172,6 +198,7 @@ class TextTitleLarge extends TextWithKnownStyle {
       super.backgroundColor,
       super.decoration,
       super.direction,
+      super.textAlign,
       super.overflow,
       super.softWrap,
       super.opacity = 1,
